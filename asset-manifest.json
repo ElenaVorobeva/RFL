@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rfl/static/css/main.3907c594.chunk.css",
-    "main.js": "/rfl/static/js/main.1830e711.chunk.js",
-    "main.js.map": "/rfl/static/js/main.1830e711.chunk.js.map",
+    "main.js": "/rfl/static/js/main.fd9f8b80.chunk.js",
+    "main.js.map": "/rfl/static/js/main.fd9f8b80.chunk.js.map",
     "runtime-main.js": "/rfl/static/js/runtime-main.85b7a605.js",
     "runtime-main.js.map": "/rfl/static/js/runtime-main.85b7a605.js.map",
     "static/css/2.741fc877.chunk.css": "/rfl/static/css/2.741fc877.chunk.css",
@@ -59,8 +59,6 @@
     "static/media/Д.feef8b9f.jpg": "/rfl/static/media/Д.feef8b9f.jpg",
     "static/media/Е.b1160743.gif": "/rfl/static/media/Е.b1160743.gif",
     "static/media/Е.ee7c239c.jpg": "/rfl/static/media/Е.ee7c239c.jpg",
-    "static/media/Ё.7481f15f.gif": "/rfl/static/media/Ё.7481f15f.gif",
-    "static/media/Ё.dc7e5661.jpg": "/rfl/static/media/Ё.dc7e5661.jpg",
     "static/media/Ж.34f7c1eb.gif": "/rfl/static/media/Ж.34f7c1eb.gif",
     "static/media/Ж.970a3e34.jpg": "/rfl/static/media/Ж.970a3e34.jpg",
     "static/media/З.35fa920b.jpg": "/rfl/static/media/З.35fa920b.jpg",
@@ -69,6 +67,8 @@
     "static/media/И.c8737dc1.jpg": "/rfl/static/media/И.c8737dc1.jpg",
     "static/media/Й.8ca484d7.jpg": "/rfl/static/media/Й.8ca484d7.jpg",
     "static/media/Й.cb4bb319.gif": "/rfl/static/media/Й.cb4bb319.gif",
+    "static/media/Йо.7481f15f.gif": "/rfl/static/media/Йо.7481f15f.gif",
+    "static/media/Йо.dc7e5661.jpg": "/rfl/static/media/Йо.dc7e5661.jpg",
     "static/media/К.2b226e4d.jpg": "/rfl/static/media/К.2b226e4d.jpg",
     "static/media/К.9cd48ee6.gif": "/rfl/static/media/К.9cd48ee6.gif",
     "static/media/Л.4d6c3e84.gif": "/rfl/static/media/Л.4d6c3e84.gif",
@@ -119,6 +119,6 @@
     "static/css/2.741fc877.chunk.css",
     "static/js/2.f06c7f38.chunk.js",
     "static/css/main.3907c594.chunk.css",
-    "static/js/main.1830e711.chunk.js"
+    "static/js/main.fd9f8b80.chunk.js"
   ]
 }
