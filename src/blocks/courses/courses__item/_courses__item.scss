@@ -1,0 +1,19 @@
+.courses__item {
+  // background-color: #f3e8eb;
+  // border-radius: 15px;
+  // border: #928490 solid 2px;
+  width: 280px;
+  height: 180px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include section-border-all;
+}
+
+// .courses__item:hover {
+//   background-color: #f3e8eb00;
+//   cursor: pointer;
+// }

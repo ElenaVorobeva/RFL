@@ -1,0 +1,9 @@
+.header__title {
+  position: relative;
+  min-height: calc(100vh - 60px);
+  max-height: 700px;
+  background-image: url("../../../images/bg-10.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

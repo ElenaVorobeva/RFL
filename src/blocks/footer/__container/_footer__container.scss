@@ -1,0 +1,8 @@
+@import "../../section/section";
+
+.footer__container {
+  background-color: map-get($colors, primary-accent);
+  color: map-get($colors, text-light);
+
+  min-height: 100px;
+}

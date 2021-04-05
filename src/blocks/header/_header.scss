@@ -1,0 +1,11 @@
+@import "./__navbar/header__navbar";
+@import "./__title/header__title";
+@import "./__subtitle/header__subtitle";
+@import "./__title-text/header__title-text";
+@import "./__title-bg/header__title-bg";
+
+@import "../section/section";
+
+.header {
+  background: #fff;
+}

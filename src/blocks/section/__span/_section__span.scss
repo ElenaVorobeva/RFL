@@ -1,0 +1,6 @@
+@import "../section";
+
+.section__span {
+  color: map-get($colors, primary-accent);
+  font-weight: bold;
+}

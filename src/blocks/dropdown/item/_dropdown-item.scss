@@ -1,0 +1,11 @@
+@import "../../section/section";
+
+.dropdown-item {
+  &:hover {
+    background: map-get($colors, primary-accent);
+  }
+
+  &:hover a {
+    color: map-get($colors, text-light) !important;
+  }
+}

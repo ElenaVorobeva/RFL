@@ -1,0 +1,12 @@
+@import "./__container/footer__container";
+@import "./__copywrite/footer__copywrite";
+@import "./__social-media/footer__social-media";
+@import "./__social-media-element/footer__social-media-element";
+@import "./__base/footer__base";
+
+.footer {
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+}

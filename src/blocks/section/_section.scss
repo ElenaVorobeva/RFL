@@ -1,0 +1,48 @@
+@import "./_margin/section_margin";
+@import "./_ul/section_ul";
+
+$colors: (
+  "background": #fff,
+  "primary-accent": #3980a8,
+  "secondary-accent": #c0e6fc,
+  "text": #303030,
+  "text-light": #fff,
+);
+
+$icons: ();
+
+@mixin section-margin-top() {
+  margin-top: 60px;
+}
+
+@mixin section-margin-center() {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin section-border-bottom() {
+  border-bottom: 2px solid map-get($colors, primary-accent);
+}
+
+@mixin section-border-top() {
+  border-top: 2px solid map-get($colors, primary-accent);
+}
+
+@mixin section-border-all() {
+  border: map-get($colors, primary-accent) solid 2px;
+
+  background: linear-gradient(
+      to left,
+      map-get($colors, background) 50%,
+      map-get($colors, primary-accent) 50%
+    )
+    right;
+  background-size: 200%;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    color: map-get($colors, background);
+    background-position: left;
+  }
+}

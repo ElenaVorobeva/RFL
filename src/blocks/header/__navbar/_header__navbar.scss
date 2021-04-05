@@ -1,0 +1,8 @@
+@import "../../section/section";
+
+.nav {
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: map-get($colors, background);
+  @include section-border-bottom;
+}

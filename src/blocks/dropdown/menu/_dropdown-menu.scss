@@ -1,0 +1,6 @@
+@import "../../section/section";
+
+.dropdown-menu.show {
+  // background: map-get($colors, background);
+  border: 1px solid map-get($colors, primary-accent);
+}

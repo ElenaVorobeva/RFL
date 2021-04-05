@@ -1,0 +1,27 @@
+@import "../section/section";
+
+.body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: map-get($colors, text);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: map-get($colors, text);
+
+  &:hover {
+    color: map-get($colors, primary-accent);
+  }
+}
+
+p,
+ul {
+  margin-bottom: 0;
+}

@@ -1,0 +1,17 @@
+@import "../../section/section";
+
+.aplhabet__card-audio {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: map-get($colors, primary-accent);
+  mask-image: url(../../../images/icons/mycollection/svg/020-headphone.svg);
+  cursor: pointer;
+
+  .alphabet__card-container:hover & {
+    background-color: map-get($colors, background);
+    transition: background-color 0.5s ease;
+  }
+}

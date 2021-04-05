@@ -1,0 +1,12 @@
+@import "./courses__item/courses__item";
+@import "./courses__title/courses__title";
+
+.courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  row-gap: 20px;
+  column-gap: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
